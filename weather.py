@@ -78,8 +78,10 @@ class MockWeather():
             base = datetime.datetime.today()
         else:
             base = startday
+            
         ret = {"report":[]}
-        dates = [base + datetime.timedelta(days=x) for x in range(numdays)] 
+        dates = [base + datetime.timedelta(days=x) for x in range(numdays)]
+        
         for city in self.list_cities(city_name=city_name):
             city_report = {'city':city.name}
             weather_reports = []
@@ -87,4 +89,5 @@ class MockWeather():
                 weather_reports.append(WeatherReport(city, date).get_report())
             city_report['weather'] = weather_reports
             ret["report"].append(city_report)
+
         return json.dumps(ret)

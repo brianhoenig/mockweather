@@ -13,10 +13,17 @@ Cities:
   max-humidity: 70
   min-windspeed: 0
   max-windspeed: 20
-- name: San Antonio
+- name: Houston
   min-temp: 20
   max-temp: 85
   min-humidity: 25
   max-humidity: 70
+  min-windspeed: 0
+  max-windspeed: 20
+- name: Dallas
+  min-temp: 2
+  max-temp: 107
+  min-humidity: 25
+  max-humidity: 78
   min-windspeed: 0
   max-windspeed: 20

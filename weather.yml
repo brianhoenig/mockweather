@@ -1,0 +1,22 @@
+Cities:
+- name: Chicago
+  min-temp: -20
+  max-temp: 85
+  min-humidity: 25
+  max-humidity: 50
+  min-windspeed: 0
+  max-windspeed: 40
+- name: Austin
+  min-temp: 20
+  max-temp: 85
+  min-humidity: 25
+  max-humidity: 70
+  min-windspeed: 0
+  max-windspeed: 20
+- name: San Antonio
+  min-temp: 20
+  max-temp: 85
+  min-humidity: 25
+  max-humidity: 70
+  min-windspeed: 0
+  max-windspeed: 20

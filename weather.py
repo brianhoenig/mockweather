@@ -2,7 +2,6 @@ import random
 import yaml
 import datetime
 import json
-import humanize
 
 class City():
     def __init__(self, city_data):

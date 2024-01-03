@@ -1,4 +1,8 @@
 # mockweather  
+Project 1: Weather Data Processor  
+Objective:  Create a command-line application that process and displayes weather data.
+
+
 To use, requires python 3 with the pyyaml package installed.    
 (pip install pyyaml)   
 
